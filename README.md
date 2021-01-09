@@ -12,7 +12,7 @@ as landmark positions).
 
 My program works as follows:\
 You pass it an image file tagged as -i (input) and output type tagged as -o (output).\
-The output must be 'f' or 'b', where 'f' gives cut out faces detected and 'o' gives the original image with faces and features marked.\
+The output must be 'f' or 'b', where 'f' gives cut out faces detected and 'o' gives the original image with faces and features marked.
 
 To detect all faces in 'test1.png' and output detected faces as isolated images:\
 python3 faceDetection_mtcnn.py -i test1.png -o f\
