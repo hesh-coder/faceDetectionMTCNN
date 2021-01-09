@@ -4,6 +4,8 @@ This program uses MTCNN (Multi-task Cascade Convolutional Neural Network). This 
 I learnt how to do such detection with the following tutorial:\
 https://machinelearningmastery.com/how-to-perform-face-detection-with-classical-and-deep-learning-methods-in-python-with-keras/
 
+(I did not create the MTCNN, it is a classifier that has been refined over the past 20 years)
+
 Using mtcnn has means using the cascade structure on three networks:
 1. Candidate windows are developed through a not too deep CNN (Cascade Neural Network)
 2. Using a deeper CNN, lots of non-face windows are found and removed.
