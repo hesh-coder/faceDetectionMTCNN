@@ -17,7 +17,7 @@ You pass it an image file tagged as -i (input) and output type tagged as -o (out
 The output must be 'f' or 'b', where 'f' gives cut out faces detected and 'o' gives the original image with faces and features marked.
 
 To detect all faces in 'test1.png' and output detected faces as isolated images:\
-python3 faceDetection_mtcnn.py -i test1.png -o f\
+$ python3 faceDetection_mtcnn.py -i test1.png -o f\
 <br></br>
 To detect all faces and output the original image with faces and facial features marked:\
-python3 faceDetection_mtcnn.py -i test1.png -o b
+$ python3 faceDetection_mtcnn.py -i test1.png -o b
